@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         handRankBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent handRankIntent = new Intent(getApplicationContext(),SecondActivity.class);
+                Intent handRankIntent = new Intent(getApplicationContext(),ThirdActivity.class);
 
                 startActivity(handRankIntent);
             }
